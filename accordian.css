@@ -1,0 +1,63 @@
+html {
+	font-size: 62.5%;
+}
+body {
+	background-color: pink;
+}
+.withflex {
+	display: flex;
+	flex-direction: column;
+	/* justify-content: center; */
+	align-items: center;
+}
+.box {
+	border: solid red 0.25rem;
+	margin: 1rem;
+	width: 80%;
+	background-color: springgreen;
+}
+.upper {
+	border: solid purple 0.2rem;
+	margin: 1rem;
+	/* width: 50%; */
+	font-size: 4rem;
+	/* align-self: center; */
+	padding: 1rem;
+	background-color: lightblue;
+	font-style: italic;
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+	color: red;
+	cursor: pointer;
+}
+.lower {
+	display: none;
+	/* flex-direction: column; */
+	/* align-content: center; */
+	background-color: seashell;
+}
+#first {
+	display: flex;
+	flex-direction: column;
+}
+.sub {
+	color: black;
+	border: solid darkgreen 0.1rem;
+	margin: 0.5rem;
+	padding: 1rem;
+	font-size: 3.5rem;
+}
+span {
+	/* margin-left: 18rem; */
+	position: absolute;
+	right: 15%;
+}
+@media only screen and (max-width: 998px) and (min-width: 768px) {
+	html {
+		font-size: 55%;
+	}
+}
+@media only screen and (max-width: 768px) {
+	html {
+		font-size: 45%;
+	}
+}
